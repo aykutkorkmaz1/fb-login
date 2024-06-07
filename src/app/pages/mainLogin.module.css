@@ -1,0 +1,211 @@
+.mainWrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftIntro {
+    border-radius: 10px;
+    width: 350px;
+    margin: 20px;
+    height: calc(100vh - 40px); 
+    background-image: url(../../assets/intro-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+    
+.introContent {
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center; 
+    background-color: rgb(7, 102, 255, 0.8);
+    overflow-y: auto;
+}
+
+.textLogo {
+    float: left;
+    width: 170px;
+}
+
+.slogan {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.persons {
+    width: 100%;
+    height: auto;
+}
+
+.logInWrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.loginAcc {
+    margin: auto;
+    text-align: center;
+    width: 380px;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 2px rgba(66, 68, 90, 0.1);
+}
+
+.circleLogo {
+    width: 40px;
+    height: auto;
+    margin: 20px 0 0 0;
+}
+
+.loginDialog {
+    width: 380px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.loginRegister {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+}
+
+.notYou {
+    padding: 0 0 20px 0;
+}
+
+.accList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+    
+.person {
+    width: 50px;
+    height: auto;
+    opacity: 0.8;
+}
+
+.person:nth-child(3) {
+    width: 80px;
+    opacity: 1;
+}
+
+.personName {
+    margin: 7px 0 0 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.notYouText {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #0766FF;
+}
+
+.submitData {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: 1px solid #E7E7E7;
+    color: #0766FF;
+    margin: 0 auto 10px auto;
+    transition: 0.2s;
+}
+
+.input:focus {
+    transition: 0.2s;
+    border: 1px solid #a3c6ff;
+}
+
+.logInBtn {
+    width: 100%;
+    margin: auto;
+    background-color: #0766FF;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.forgotPassword {
+    margin: 7px 0 0 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #0766FF;
+}
+
+.lang {
+    margin: 50px 0 10px 0;
+    color: #0766FF;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.divider {
+    width: 100%;
+    border: 0.1px solid rgb(231, 231, 231);
+    margin: 0 0 15px 0;
+}
+
+.createAcc {
+    display: flex;
+    flex-direction: column;
+}
+
+.createAccBtn {
+    width: 100%;
+    margin: 0 auto 10px auto;
+    background-color: #43B72A;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bottomLinks {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto 0 auto;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    margin: 2px 0 2px 0;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+}
+
+.link {
+    width: fit-content;
+    padding: 0 7px 0 7px;
+    font-size: 10px;
+    color: #919191;
+    font-weight: 400;
+}
